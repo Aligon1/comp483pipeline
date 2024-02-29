@@ -5,6 +5,7 @@ This pipeline executes the comparison of human herpesvirus 5 (HCMV) transcriptom
 ### Dependencies
 
 - Python
+  - wget
   - os
   - subprocess
   - Biopython: Entrez, SeqIO, Blast - NCBIWWW, NCBIXML
