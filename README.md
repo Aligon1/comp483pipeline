@@ -4,6 +4,7 @@ This pipeline executes the comparison of human herpesvirus 5 (HCMV) transcriptom
 
 ### Dependencies
 
+- SRA toolkit for fastq dump
 - Python
   - wget
   - os
