@@ -4,29 +4,29 @@ This pipeline executes the comparison of human herpesvirus 5 (HCMV) transcriptom
 
 ### Dependencies
 
-- SRA toolkit for fastq dump
-- Python
-  - wget
+- Python3
+  - SRAtoolkit
+  - logging
   - os
   - subprocess
   - Biopython: Entrez, SeqIO, Blast - NCBIWWW, NCBIXML
   - Pandas
+- Kallisto - Documentation: https://pachterlab.github.io/kallisto/about
 - R
-  - Sleuth 
+  - Sleuth - Documentation: https://pachterlab.github.io/sleuth/about 
+
 
 ### Executing program
 
+**To run this script, please clone this github repository with:**
+```
+git clone https://github.com/Aligon1/comp483pipeline.git
+```
+
 **Before running:** <br>
-- Update config.py for your specific configuration variables
-- In the R script, make sure to set the correct path to the kallisto directory (line 94) 
-
-**To run:** <br>
-The script can be run by calling run_pipeline() at the end of the script or to run from commandline/terminal:
-
+- Make sure to enter your email for Entrez 
+ 
+**To run:**
 ```
-python pipeline_script.py
-```
-or <br>
-```
-python3 pipeline_script.py
+python3 wrapper.py 
 ```
