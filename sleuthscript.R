@@ -29,4 +29,4 @@ sleuth_significant <- dplyr::filter(sleuth_table, qval <= 0.05) %>% dplyr::arran
 sleuth_significant <- sleuth_significant %>% select(target_id, test_stat, pval, qval)
 
 #write FDR < 0.05 transcripts to file
-write.table(sleuth_significant, file='fdr05_results.txt',quote = FALSE,row.names = FALSE)
+write.table(sleuth_significant, file="fdr05_results.txt",quote = FALSE,row.names = FALSE, col.names = TRUE, sep='\t')
