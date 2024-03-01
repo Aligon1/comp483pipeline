@@ -1,5 +1,7 @@
 # Pipeline Project: Differential Expression
 
+**PipelineProject.log is not complete, had computer problems - issue with how I was making the database for the betaherpesvirinae. All scripts are there.**
+
 This pipeline executes the comparison of human herpesvirus 5 (HCMV) transcriptomes between two patient donors (Donor 1 and Donor 3) at two time points (2- and 6- days post infection (dpi))
 
 ### Dependencies
