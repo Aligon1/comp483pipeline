@@ -167,7 +167,7 @@ def run_blast(input_fasta, database_dir, output_xml):
     with open(database_file, 'w') as db_handle:
         for filename in os.listdir(database_dir):
             if filename.endswith('.fasta'):
-                record = SeqIO.read(os.path.join(database_dir, filename), 'fasta')
+                record = SeqIO.parse(os.path.join(database_dir, filename), 'fasta')
                 SeqIO.write(record, db_handle, 'fasta')
 
     # Run Blast+
