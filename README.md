@@ -47,4 +47,4 @@ python3 wrapper.py
   - SRR5660045_1_subset.fastq
   - SRR5660045_2_subset.fastq
 - PipelineProject.log - main pipeline results
-
+- local betaherpesvirinae 
